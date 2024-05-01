@@ -1,0 +1,42 @@
+.assign-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 85%;
+  border-radius: 12px;
+  max-width: 1100px;
+  padding: 20px;
+  height: 30vh;
+}
+
+@media screen and (min-width: 768px) {
+  .assign-con {
+    width: 78%;
+    max-width: 1120px;
+  }
+}
+.assign-head {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20;
+}
+.op-con {
+  background-color: #8b5cf6;
+  color: white;
+  height: 35px;
+  width: 95px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+.status {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20;
+}
